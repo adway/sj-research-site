@@ -126,12 +126,12 @@ export const List = props => (
         fontSize: 1
       },
       h1: {
-        color: 'secondary',
+        color: 'text',
         fontWeight: 'bold',
         fontSize: [1]
       },
       a: {
-        fontWeight: 'bold',
+        fontWeight: 'medium',
         color: 'primary',
         textDecoration: 'none'
       },
