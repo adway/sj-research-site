@@ -39,6 +39,21 @@ export const Container = ({ wide, ...props }) => (
   />
 );
 
+export const Callout = props => (
+  <Box
+    sx={{
+      bg: 'elevated',
+      px: [3, 4],
+      py: [2, 3, 4],
+      borderRadius: 'extra',
+      boxShadow: 'card',
+      fontSize: [2, 3],
+      mb: [4, 5]
+    }}
+    {...props}
+  />
+);
+
 export const Tiles = props => (
   <Box
     {...props}
@@ -111,7 +126,7 @@ export const List = props => (
         fontSize: 1
       },
       h1: {
-        color: 'primary',
+        color: 'secondary',
         fontWeight: 'bold',
         fontSize: [1]
       },
@@ -119,6 +134,10 @@ export const List = props => (
         fontWeight: 'bold',
         color: 'primary',
         textDecoration: 'none'
+      },
+      em: {
+        display: 'block',
+        fontStyle: 'normal'
       },
       ...props.sx
     }}

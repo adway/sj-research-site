@@ -27,12 +27,9 @@ export default class extends App {
       <>
         <Head>
           <title>{name}</title>
-          <meta property="twitter:card" content="summary" />
-          <meta property="twitter:site" content="@lachlanjc" />
           <meta property="twitter:description" content={desc} />
           <meta property="og:title" content={name} />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://lachlanjc.me/" />
           <meta property="description" content={desc} />
         </Head>
         <ThemeProvider theme={theme}>
